@@ -9,26 +9,21 @@ x = 8
 y = 10
 z = x + y 
 
-print(z)
-
 #flottants 
 
 a = 3
 b = 2
 c = a * b 
-print (c)
 
 #creation chaine de caracteres
 
 str1 = "Bonjour, "
 str2 = "Comment vas tu madame ? "
 message = str1 + str2
-print(message)
 
 #longueur de la chaine de caracteres 
 
 longueur = len(message)
-print(longueur)
 
 #creation d'une liste
 
@@ -43,8 +38,8 @@ ma_liste.remove(3)
 #recuperer un element de la liste
 troisieme_element = ma_liste[0]
 
-print(ma_liste)
-print(troisieme_element)
+#print(ma_liste)
+#print(troisieme_element)
 
 #creer un tuple 
 
@@ -53,8 +48,8 @@ mon_tuple = ("pomme", "banane", "cerise")
 #acceder à un element du tuple 
 deuxieme_element = mon_tuple[1]
 
-print(mon_tuple)
-print(deuxieme_element)
+#print(mon_tuple)
+#print(deuxieme_element)
 
 #creer un dictionnaire 
 
@@ -67,9 +62,135 @@ age = mon_dictionnaire["age"]
 #modifier une valeur du dictionnaire
 mon_dictionnaire["ville"] = "Marseille"
 
-#ajoutr une paire clé-valeur au dictionnaire 
+#ajouter une paire clé-valeur au dictionnaire 
 
 mon_dictionnaire["profession"] = "Data scientist"
 
-print(age)
-print(mon_dictionnaire)
+#print(age)
+#print(mon_dictionnaire)
+
+##--Les operateurs et les expressions--##
+
+#-les operateurs arithmetiques-#
+
+#Addition 
+
+a = 5
+b = 3
+c = a + b
+
+#Soustraction 
+
+b = 5
+c = 3
+d = b - c
+
+#Multiplication  
+
+e = 5
+f = 3
+g = e * f
+
+#Division 
+
+h = 5
+i = 3
+j = h / i
+
+#Modulo 
+
+k = 8
+l = 3
+m = 8 % 3
+
+#puissance 
+
+n = 2
+o = 3
+p = n ** o
+
+
+#-les operateurs de comparaison-#
+
+#Comparaison d'égalité
+
+r = 5
+s = 3
+t = (r == s)
+
+#Comparaison de différence
+
+u = 5
+v = 3
+w = ( u != v)
+
+#Supériorité
+
+x = 5
+y = 3
+z = ( x > y)
+
+#Infériorité 
+
+a = 5
+b = 3
+c = ( a < b)
+
+#Supériorité ou égalité 
+
+d = 5
+e = 3
+f = ( d >= f)
+
+#Infériorité ou égalité 
+
+
+g = 5
+h = 3
+i = ( g <= h)
+
+
+#-les operateurs logiques-#
+
+#Et (and)
+
+a = True
+b = False
+c = a and b 
+
+#Ou  (or)
+
+df = False
+eh = False
+ff = df or eh 
+
+print(ff)
+
+# Non (not)
+
+g = False
+h = not g
+
+print(h)
+
+#-Les expressions conditionnelles -# 
+#Expression conditionnelle 
+
+i = 5
+j = 3
+k = 10 if i > j else 2 
+
+print(k)
+
+
+
+
+
+
+
+
+
+
+
+
+
