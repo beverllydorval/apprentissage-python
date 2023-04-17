@@ -3,6 +3,7 @@
 
 #Petits exercices 
 
+
 #entiers 
 
 x = 8
@@ -164,14 +165,10 @@ df = False
 eh = False
 ff = df or eh 
 
-print(ff)
-
 # Non (not)
 
 g = False
 h = not g
-
-print(h)
 
 #-Les expressions conditionnelles -# 
 #Expression conditionnelle 
@@ -180,8 +177,41 @@ i = 5
 j = 3
 k = 10 if i > j else 2 
 
-print(k)
 
+##--Les fonctions--##
+
+#Definir une fontcion 
+
+def somme(a, b):
+    return a + b
+
+#Appeler une fonction 
+
+cc = somme(2, 3)
+
+#Arguments de fonction 
+def multiplication(a, b=2):
+    return a * b
+
+c = multiplication(1)
+d = multiplication(2, 3)
+
+#Variables locales et globales
+
+#variable globale 
+aa = 1 
+
+
+def ma_fonction():
+    b = 5 #variable locale 
+    print (aa + b) #sortie 6
+
+ma_fonction()
+
+#Fonctions anonymes (lambda)
+
+carre = lambda x: x**2
+print(carre(3))
 
 
 
