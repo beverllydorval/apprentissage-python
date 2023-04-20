@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# On commence par importer numpy en lui donnant alias np 
+# On commence par importer numpy en lui donnant l'alias "np" 
 import numpy as np
 
 #Creer un tableau NumPy a une dimension
