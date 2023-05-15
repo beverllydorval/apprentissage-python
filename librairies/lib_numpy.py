@@ -95,3 +95,18 @@ row = arr[1, :]
 row_arr = row.reshape(1, -1)
 print(row_arr)
 
+
+#-Indexation par booléens avec NumPy-# 
+
+
+#Tableau Numpy a un dimension 
+
+arr = np.array([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
+
+#Creer un masque booléen 
+mask = arr % 2 == 0 # on selectionne les elements pairs
+
+#Selectionner les elements du tableau qui corresondent au masqu boolen 
+result = arr[mask]
+
+print(result)

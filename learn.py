@@ -214,6 +214,34 @@ carre = lambda x: x**2
 print(carre(3))
 
 
+#Les boucles for et while
+
+#for ii in range(5):
+ #   print(ii)
+
+
+#count = 0 
+#while count < 5:
+ #   print(count)
+#count =+ 1
+
+#Programmation Orientée Objet
+
+# Création d'une classe Eleve
+class Eleve :
+    def __init__(self, nom, age):
+        self.nom = nom
+        self.age = age
+
+    def se_presenter(self):
+        print("Je m'appelle", self.nom, "et j'ai", self.age, "ans.")
+
+# Création d'un objet eleve
+Arthur = Eleve("Arthur", 25)
+Arthur.se_presenter()
+
+
+
 
 
 
