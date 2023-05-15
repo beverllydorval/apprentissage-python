@@ -236,7 +236,7 @@ class Eleve :
     def se_presenter(self):
         print("Je m'appelle", self.nom, "et j'ai", self.age, "ans.")
 
-# Création d'un objet eleve
+# Création d'un objet eleve.
 Arthur = Eleve("Arthur", 25)
 Arthur.se_presenter()
 
